@@ -1,0 +1,27 @@
+@media all and (max-width: 768px) {
+    #logo {
+        margin-right: 30px;
+    }
+    #top-nav a{
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+}
+
+@media all and (max-width: 576px) {
+    #side-nav {
+        display: flex;
+    }
+    #top-nav {
+        display: none;
+    }
+    #logo {
+        margin: 0 auto;
+    }
+    .footer-option {
+        width: 50%;
+    }
+    #footer-up {
+        flex-wrap: wrap;
+    }
+}
