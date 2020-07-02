@@ -3,6 +3,6 @@ Tugas kelompok pada kegiatan Pelatihan "Coding Experience Bootcamp" yang diselen
 Anggota kelompok:
 1. Irhady Kusuma Wardhana
 2. Ahmad Suaif
-3. Depa D13
+3. Elfandi Deva
 4. Haris Abdul Afif
 5. Andi Irawan
