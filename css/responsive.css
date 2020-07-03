@@ -9,10 +9,21 @@
     #search-nav {
         display: none;
     }
-
+    .container{
+        flex-direction: column;
+    }
     .box{
-        flex-basis: 32%;
-        margin-bottom: 20px;
+        flex-basis: 100%;
+        /* margin-bottom: 20px; */
+    }
+    .box-isi {
+        display: flex;
+    }
+    .box-isi img {
+        width: 50%;
+    }
+    .box-isi p {
+        width: 50%;
     }
     table {
         width: 80%;
@@ -48,11 +59,21 @@
     /*BAGIAN UTAMA*/
     #bagian-utama {
         display: flex;
+        padding: 20px;
         flex-direction: column;
         text-align: center;
     }
     .img-bagian-utama img {
         width: 80%;
+        /* order: 1; */
+    }
+    .img-bagian-utama {
+        order: 1;
+        margin-right: 0;
+    }
+    .slogan-bagian-utama {
+        order: 2;
+        margin-left: 0;
     }
     .slogan-bagian-utama p {
         font-size: 1rem;
@@ -66,6 +87,15 @@
     .box{
         flex-basis: 100%;
         /* flex-direction: column; */
+    }
+    .box-isi {
+        flex-direction: column;
+    }
+    .box-isi img {
+        width: 50%;
+    }
+    .box-isi p {
+        width: 100%;
     }
 
     table{

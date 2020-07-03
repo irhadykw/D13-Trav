@@ -69,21 +69,30 @@ nav {
     cursor: pointer;
 }
 /*BAGIAN UTAMA*/
-main {
-    margin: 20px 0;
-}
 #bagian-utama {
+    padding: 200px 0 100px 0;
+    background-image: url("../images/flight.jpg");
+    opacity: 0.8;
+    background-size: cover;
+    color: white;
+    /* text-align: center; */
     display: flex;
+    align-items: center;
 }
 .img-bagian-utama {
     flex: 1;
+    margin-right: 50px; 
 }
 .img-bagian-utama img {
     width: 100%;
+
 }
 .slogan-bagian-utama {
-    flex: 1;
-    margin: 30px;
+    flex: 2;
+    margin-left: 50px; 
+}
+.slogan-bagian-utama h1 {
+    letter-spacing: 8px;
 }
 
 /*BAGIAN EXTRA*/
@@ -112,10 +121,13 @@ main {
     border: 1px solid #dfdfdf;
     box-shadow:3px 3px 8px #dfdfdf;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
 }
 .images{
     /* width: 20%; */
-    max-height: 100px;
+    max-height: 200px;
+    margin: 10px 0;
     object-fit: cover;
     object-position: top;
 }
